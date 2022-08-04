@@ -1,0 +1,7 @@
+.Gray-scale{
+    width: 300px;
+filter: grayscale(100%)
+}
+.Color-img{
+    width: 300px;
+}
