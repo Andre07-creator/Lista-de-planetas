@@ -1,10 +1,10 @@
 import React from "react";
 import Planets from '../components/Planets'
 
-const PlanetScreen = () => {
+const PlanetsScreen = () => {
     return (
         <Planets/>
     )
 }
 
-export default PlanetScreen
+export default PlanetsScreen
