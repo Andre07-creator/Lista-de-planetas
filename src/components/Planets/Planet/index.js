@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Gray_img from "../../shared/Gray-img";
 import DescritpionWithlink from "../../shared/DescriptionWithLink";
-
+import {Link} from 'react-router-dom'
 //componentDidMount(){
 //  getSatellites(this.props.id).then(data =>{
 //    this.setState(state =>({
@@ -19,10 +19,9 @@ const Planet = (props) => {
     }
     return (
         <div>
-            {title}
+            <Link to={`/planet/${props.id}`}>{title}</Link>
             <DescritpionWithlink description={props.description} link={props.link} />
             <Gray_img img_url={props.img_url} gray={props.gray} />
-
         </div>
     )
 

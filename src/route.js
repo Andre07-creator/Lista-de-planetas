@@ -7,7 +7,7 @@ const Routes_rota = () => (
     <BrowserRouter>
         <Routes>
             <Route path='/' element={<PlanetsScreen/>} />
-            <Route path='/planet' element={<PlanetScreen/>}/>
+            <Route path='/planet/:id' element={<PlanetScreen/>}/>
         </Routes>
     </BrowserRouter>
 )

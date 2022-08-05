@@ -17,6 +17,8 @@ async function getPlanets() {
 //}
 const Planets = () => {
     const [planets, setPlanets] = useState([])
+
+    
     const removeLast = () => {
         let rLast = [...planets]
         rLast.pop()
